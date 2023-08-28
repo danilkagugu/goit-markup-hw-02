@@ -1,0 +1,41 @@
+body {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.logo {
+  text-decoration: none;
+}
+.logo-web {
+  color: #4d5ae5;
+  font-size: 18px;
+}
+.logo-studio {
+  color: #2e2f42;
+  font-size: 18px;
+}
+
+.nav-link {
+  color: #2e2f42;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #404bbf;
+  font-size: 16px;
+  text-decoration: underline;
+  border-radius: 2px;
+}
+
+address a {
+  color: #434455;
+  text-decoration: none;
+}
+
+address a:hover {
+  color: #404bbf;
+}
