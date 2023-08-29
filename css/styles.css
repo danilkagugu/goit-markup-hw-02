@@ -1,5 +1,7 @@
 body {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -7,21 +9,24 @@ body {
 }
 
 .logo {
+  font-family: Roboto, sans-serif;
   text-decoration: none;
-}
-.logo-web {
   color: #4d5ae5;
   font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+
 .logo-studio {
   color: #2e2f42;
-  font-size: 18px;
 }
 
 .nav-link {
   color: #2e2f42;
-  font-size: 16px;
   text-decoration: none;
+  line-height: 0.02em;
 }
 
 .nav-link:hover {
@@ -34,6 +39,7 @@ body {
 address a {
   color: #434455;
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 address a:hover {
