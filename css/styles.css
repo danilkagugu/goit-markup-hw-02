@@ -63,7 +63,7 @@ body {
   background-color: #2e2f42;
 }
 
-h1 {
+.title {
   color: #fff;
   text-align: center;
   font-size: 56px;
@@ -88,15 +88,16 @@ h1 {
 }
 
 /* section-advantages */
-.section-advantages h3 {
+.advantages {
   color: #2e2f42;
   font-size: 20px;
+  font-weight: 500;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.section-advantages p {
+.advantages-list {
   color: #434455;
   font-style: normal;
   font-weight: 400;
@@ -108,7 +109,7 @@ h1 {
 .section-team {
   background-color: #f4f4fd;
 }
-.section-team h2 {
+.team {
   color: #2e2f42;
   font-size: 36px;
   font-style: normal;
@@ -118,21 +119,22 @@ h1 {
   text-transform: capitalize;
   text-align: center;
 }
-
-.team-list {
-  background-color: #fff;
+.section-team ul {
+  background-color: #ffffff;
 }
 
-.team-list h3 .section-portfolio h3 {
+.team-name {
   color: #2e2f42;
   font-size: 20px;
+  font-weight: 500;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.team-list h3 p .section-portfolio p {
+.skills {
   color: #2e2f42;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -143,7 +145,7 @@ h1 {
 .section-portfolio {
   background-color: #fff;
 }
-.section-portfolio h2 {
+.portfolio {
   color: #2e2f42;
   font-size: 36px;
   font-style: normal;
@@ -152,4 +154,35 @@ h1 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+}
+
+.portfolio-project {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-project-list {
+  color: #2e2f42;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* footer */
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo-studio {
+  color: #f4f4fd;
+}
+.advice {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
