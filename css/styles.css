@@ -7,9 +7,9 @@ body {
   line-height: 24px;
   letter-spacing: 2%;
 }
-
+/* Header */
 .logo {
-  font-family: Roboto, sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-decoration: none;
   color: #4d5ae5;
   font-size: 18px;
@@ -23,13 +23,17 @@ body {
   color: #2e2f42;
 }
 
+.page-nav {
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
 .nav-link {
   color: #2e2f42;
   text-decoration: none;
   line-height: 0.02em;
 }
 
-.nav-link:hover {
+.nav-link:active {
   color: #404bbf;
   font-size: 16px;
   text-decoration: underline;
@@ -40,8 +44,33 @@ address a {
   color: #434455;
   text-decoration: none;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
-address a:hover {
+address a:active {
   color: #404bbf;
+}
+
+/* Section-hero */
+.section-hero {
+  background-color: #2e2f42;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+.button-service {
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.button-service:hover {
+  background-color: #404bbf;
 }
